@@ -1,0 +1,134 @@
+.Main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-family: sans-serif;
+
+    &-about {
+        margin-top: 25px;
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+        &-title {
+            margin-top: 30px;
+
+            .edit {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 25px;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-style:oblique;
+            }
+
+            h4 {
+                margin-bottom: 10px;
+            }
+
+            h5 {
+                margin-bottom: 30px;
+            }
+
+            button {
+                width: 100%;
+                height: 25px;
+                background-color: grey;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+
+        &-dsc {
+            margin-top: 15px;
+        }
+    }
+
+    &-projest {
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 35px;
+
+        &-link {
+            display: flex;
+            justify-content: space-around;
+            justify-content: space-between;
+            margin-left: 12px;
+
+            a {
+                color: rgb(130, 130, 171);
+            }
+        }
+
+        section {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                color: rgb(130, 130, 171);
+                margin-left: 12px;
+            }
+
+            a {
+                font-size: 15px;
+                color: rgb(94, 107, 183);
+            }
+
+        }
+
+        .Conteiner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &-bar {
+            padding: 10px;
+            border: 1px solid gray;
+            margin-left: 10px;
+            width: 325px;
+            margin-top: 20px;
+            position: relative;
+            height: 150px;
+
+            .up {
+                a {
+                    margin-left: 10px;
+                }
+
+                display: flex;
+
+                .right {
+                    .icon {
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+
+        .down {
+            margin-top: 90px;
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 18px;
+                margin-left: 10px;
+            }
+
+            span {
+                background-color: gray;
+                border-radius: 50%;
+                height: 15px;
+                width: 15px;
+                display: inline-block;
+            }
+        }
+
+    }
+}
